@@ -66,7 +66,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 NSString *const CellReuseId = @"cell";
 NSString *const HeaderReuseId = @"header";
-NSString *const HeaderDateFormat = @"MMMM";
+NSString *const HeaderDateFormat = @"LLLL";
 
 - (nullable instancetype)initWithCoder:(NSCoder *)coder {
     BPKAssertMainThread();
